@@ -110,8 +110,8 @@
         <div class="container_tpl">
             <?php
             /* HOME */
-            include "../components/circle-ten-solutions/index.php";
             include "../components/follow-blog-min/index.php";
+            include "../components/circle-ten-solutions/index.php";
             include "../components/advantages-fluig/index.php";
             include "../components/application-fluig/index.php";
             include "../components/our-customers/index.php";
@@ -135,11 +135,11 @@
 //            include "../components/follow-blog/index.php";
             /* END WORK WITH US */
             
-            /* SOLUCTION FEATURE */
+            /* SOLUTION FEATURE */
 //            include "../components/solucition-feature/index.php";
 //            include "../components/it-experts-facts-data/index.php";
 //            include "../components/follow-blog/index.php";
-            /* END SOLUCTION FEATURE */
+            /* END SOLUTION FEATURE */
             ?>
         </div>
         <div class="divisor_footer"></div>

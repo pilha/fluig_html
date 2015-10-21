@@ -115,9 +115,9 @@ hr{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.box_img_center img , .img_center{  
-    max-height: 100%;  
-    max-width: 100%; 
+.box_img_center img, .img_center{  
+    max-height: 90%;  
+    max-width: 90%; 
     width: auto;
     height: auto;
     position: absolute;  
