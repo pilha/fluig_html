@@ -1,0 +1,67 @@
+/* BOX PARTNER*/
+.box-partners{
+    margin: 55px 0;
+}
+.box-partner-center{
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.box-conheca{
+    background-color: #e36727;
+}
+.box-beneficios{
+    background-color: #eda02e;
+}
+.box-cadastre-se{
+    background-color: #f8c926;
+}
+.box-encontre{
+    background-color: #d6d944;
+}
+.box-partner-center img{
+    margin: auto;
+}
+.box-partner-center h3{
+    color: #fff;
+    font-size: 16px;
+    margin: 25px 0 20px 0;
+}
+.box-partner-center .btn{
+    padding: 12px 0;
+    font-size: 14px;
+}
+/* END BOX PARTNER*/
+
+/* RESPONSIVE */
+@media screen and (max-width: 1180px) {
+    .box-partner-center h3{
+        font-size: 14px;
+        margin: 25px 0 10px 0;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .row-box-partners{
+        margin: 0 -7px;
+    }
+    .box-partner{
+        padding: 0 8px;
+    }
+    .box-partner-center{
+        padding: 20px;
+    }
+    .box-partner-center h3 {
+        margin: 20px 0 5px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+    .box-partner{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 485px) {
+    .box-partner {
+        width: 100%;
+    }
+}
+/* END RESPONSIVE */

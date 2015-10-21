@@ -1,0 +1,107 @@
+/* title follow_blog_min */
+.container_follow_blog_min h3 {
+    font-size: 32px;
+    margin: 0 0 3px 0;
+}
+.container_follow_blog_min h4 {
+    margin: 0;
+}
+.desc_news a{
+    color: #57585a;
+    margin-top: 10px;
+    display: block;
+}
+.desc_news a:hover , .desc_news a:active, .desc_news a:focus{
+    color: #A5CD39;
+    text-decoration: none;
+}
+.desc_news a img{
+    margin-right: 5px;
+}
+/* END title follow_blog_min */
+
+/* content follow_blog_min */
+.post_news {
+    padding-left: 87px;
+    min-height: 56px;
+    margin-top: 10px;
+}
+.post_news_date {
+    background-color: #ea195a;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    left: 15px;
+    border-radius: 5px;
+    padding: 8px 17px;
+}
+.post_news_date span {
+    display: block;
+    line-height: 1.2;
+}
+.post_news_date .day {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -3px;
+}
+.post_news_date .month {
+    font-size: 14px;
+}
+.post_news_link{
+    color:#ea195a;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.post_news_link:hover{
+    opacity: .7;
+}
+/* END content follow_blog_min */
+
+/* RESPONSIVE */
+@media screen and (max-width: 991px) {
+    .post_news{
+        margin-bottom: 30px;
+        padding-left: 65px;
+    }
+    .post_news_date {
+        left: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .container_follow_blog_min h3 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .post_news{
+        padding-left: 55px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .container_follow_blog_min h4 , .container_follow_blog_min h3{
+        display: inline-block;
+        font-size: 24px;
+    }
+    .container_follow_blog_min h3{
+       margin-left: 5px;
+    }
+    .desc_news a {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .post_news_date {
+        padding: 5px 13px;
+    }
+    .post_news_link {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .post_news {
+        width: 100%;
+    }
+    .post_news_link {
+        font-size: 16px;
+    }
+}
+/* RESPONSIVE */

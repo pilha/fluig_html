@@ -1,0 +1,15 @@
+/* BOX TEXT*/
+.component-box-text{
+    background: #ed145b;
+    border-radius: 10px;
+    margin: 55px auto;
+    padding: 25px;
+}
+.component-box-text h4{
+    color: #fff;
+    margin: 0 0 20px 0; 
+}
+.line-box-partners{
+    margin-bottom: 20px;
+}
+/* END BOX TEXT*/

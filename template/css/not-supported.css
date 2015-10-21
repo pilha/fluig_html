@@ -1,0 +1,17 @@
+.container_tpl, nav, .divisor_footer, footer, div{
+    display:none;
+}
+
+div.not-supported{
+    padding-top: 160px;
+    display:block;
+    width: 100%;
+    text-align: center;
+}
+div.not-supported img{
+    margin-bottom: 20px;
+}
+div.not-supported p{
+    font-size: 20px;
+    text-align: center;
+}

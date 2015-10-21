@@ -1,0 +1,58 @@
+/* application-fluig */ 
+.container_application_fluig h2{
+    margin: 65px 0 60px 0;
+}
+.container_application_fluig h4{
+    margin-bottom: 45px;
+    float: left;
+    width: 44%;
+}
+.container_application_fluig img{
+    margin-left: 11%;
+    width: 45%;
+}
+/* end application-fluig */ 
+
+/* RESPONSIVE */
+@media screen and (max-width: 1200px) { 
+    .container_application_fluig h4{
+        width: 50%;
+    }
+    .container_application_fluig .image-application{
+        margin-left: 5%;
+        width: 45%;
+    }
+}
+@media screen and (max-width: 991px) { 
+    .container_application_fluig h2 {
+        margin: 50px 0 40px 0;
+    }
+    .container_application_fluig h4 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .container_application_fluig .image-application{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 767px) { 
+    .container_application_fluig h4{
+        width: 100%;
+    }
+    .container_application_fluig .image-application{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 450px) { 
+    .container_application_fluig h2 {
+        margin: 45px 0 40px 0;
+    }
+    .container_application_fluig h4 {
+        margin-bottom: 30px;
+    }
+    .container_application_fluig .image-application{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+/* END RESPONSIVE */

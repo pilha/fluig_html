@@ -1,0 +1,96 @@
+/* CUSTOMERS AND CASES */
+.desc_page_customers{
+    margin-bottom: 30px;
+}
+.container_history_customers h2{
+    margin-top: 65px;
+    margin-bottom: 10px;
+}
+.nav-tabs-history-customers li{
+    width: 19.2%;
+    margin-right: 1%;
+}
+.nav-tabs-history-customers li:last-child{
+    margin-right: 0;
+}
+.tab_icon{
+    background-image: url("../images/markets_sprite.png");
+    float: left;
+    width: 110px;
+    height: 110px;
+}
+.icon_servicos {
+    background-position: -111px 0;
+}
+.icon_varejo {
+    background-position: -222px 0;
+}
+.icon_construcao {
+    background-position: -333px 0;
+}
+.icon_distribuicao {
+    background-position: -444px 0;
+}
+.box-info_history-customer{
+    margin: 60px 0;
+    min-height: 110px;
+}
+.info_history-customer{
+    margin-left: 150px
+}
+.info_history-customer h3{
+    font-family: 'open_sansbold';
+    color: #57585a;
+    margin: 20px 0 11px 0px;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.history-customer-img{
+    border: solid 1px #d8d8d8;
+    border-radius: 5px;
+    height: 140px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.box_img_center .history-customer-img>img {
+    max-width: 90%;
+}
+.box_img_center .history-customer-img:hover>img {
+    -webkit-transform:scale(1.06); /* prefixo para browsers webkit */
+    -moz-transform:scale(1.06); /* prefixo para browsers gecko */
+    -o-transform:scale(1.06); /* prefixo para opera */
+    transform:scale(1.06);
+}
+.container_history_customers .btn-green{
+    margin-top: 30px;
+}
+/* END CUSTOMERS AND CASES */
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 991px) {
+    .container_history_customers h2{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .history-box-customers{
+        padding: 0 8px;
+    }
+    .history-box-customers .box_img_center{
+        padding: 0 7px;
+    }
+    .history-customer-img{
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .box-info_history-customer {
+        margin: 30px 0;
+    }
+}
+/* END RESPONSIVE */
+
+

@@ -1,0 +1,196 @@
+.container_circle_solucitions h2{
+    margin-bottom: 65px;
+}
+.box-flower-soluctions{
+    width: 425px;
+    height: 425px;
+    position: relative;
+    float: left;
+    -webkit-transition:	all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+
+}
+.petal-solutions{
+    position: absolute;
+    width: 150px;
+    height: 162px;
+    border-radius: 50% 60% 0 60%  ;
+    margin-top: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: opacity 0.25s ease-in-out;
+    transform-origin: 172px  172px  ;
+
+    -webkit-transition:	all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+
+    opacity: 0;
+}
+.petal-solutions.petal-identity{ background: #d50a52;}
+.petal-solutions.petal-bpm{ background: #d94d14;}
+.petal-solutions.petal-ecm{ background: #eb6607;}
+.petal-solutions.petal-analytics{ background: #f7a600;}
+.petal-solutions.petal-mall{ background: #ffcc00;}
+.petal-solutions.petal-social{ background: #dedc00;}
+.petal-solutions.petal-wcm{ background: #aec90a;}
+.petal-solutions.petal-mobile{ background: #f0e403;}
+.petal-solutions.petal-lms{ background: #ffeb6b;}
+.petal-solutions.petal-esb{ background: #575656;}
+
+.under{
+    position: absolute;
+    z-index: 11;
+    border-radius: 50% 60% 0 60%;
+    box-shadow: inset 68px -35px 0 0 #D50A52;
+
+    width: 150px;
+    height: 162px;
+    transform: rotate(46deg);
+}
+
+.petal-solutions p{
+    position: absolute;
+    top: 30px;
+    right: 67px;
+
+    top: 170px;
+    right: 0;
+    opacity: 0;
+
+    width: 61%;
+    text-align: center;
+    font-size: 17.5px;
+    transform: rotate(134deg);
+}
+.petal-solutions.petal-esb p,
+.petal-solutions.p-identity p,
+.petal-solutions.petal-bpm p,
+.petal-solutions.petal-ecm p,
+.petal-solutions.petal-analytics p{
+    color: #fff;
+}
+.petal-solutions img{
+    position: absolute;
+    top: 47px;
+    left: 30px;
+
+    top: 136px;
+    left: 122px;
+    opacity:0;
+
+    text-align: center;
+    transform: rotate(134deg);
+}
+.petal-solutions.transform p,
+.petal-solutions.transform img{
+    transform: rotate(314deg);
+}
+
+.petal-solutions:nth-child(2) {
+    transform: rotate(46deg);
+    z-index: 1
+}
+.petal-solutions:nth-child(3) {
+    transform: rotate(82deg);
+    z-index: 2
+}
+.petal-solutions:nth-child(4) {
+    transform: rotate(118deg);
+    z-index: 3
+}
+.petal-solutions:nth-child(5) {
+    transform: rotate(154deg);
+    z-index: 4
+}
+.petal-solutions:nth-child(6) {
+    transform: rotate(190deg);
+    z-index: 5
+}
+.petal-solutions:nth-child(7) {
+    transform: rotate(226deg);
+    z-index: 6
+}
+.petal-solutions:nth-child(8) {
+    transform: rotate(262deg);
+    z-index: 7
+}
+.petal-solutions:nth-child(9) {
+    transform: rotate(298deg);
+    z-index: 8
+}
+.petal-solutions:nth-child(10) {
+    transform: rotate(334deg);
+    z-index: 9
+}
+.petal-solutions:nth-child(11) {
+    transform: rotate(10deg);
+    z-index: 10;
+}
+.petal-solutions:nth-child(2):hover {
+    transform: rotate(46deg) scale(1.05);
+}
+.petal-solutions:nth-child(3):hover {
+    transform: rotate(82deg) scale(1.05);
+}
+.petal-solutions:nth-child(4):hover {
+    transform: rotate(118deg) scale(1.05);
+}
+.petal-solutions:nth-child(5):hover {
+    transform: rotate(154deg) scale(1.05);
+}
+.petal-solutions:nth-child(6):hover {
+    transform: rotate(190deg) scale(1.05);
+}
+.petal-solutions:nth-child(7):hover {
+    transform: rotate(226deg) scale(1.05);
+}
+.petal-solutions:nth-child(8):hover {
+    transform: rotate(262deg) scale(1.05);
+}
+.petal-solutions:nth-child(9):hover {
+    transform: rotate(298deg) scale(1.05);
+}
+.petal-solutions:nth-child(10):hover {
+    transform: rotate(334deg) scale(1.05);
+}
+.petal-solutions:nth-child(11):hover {
+    transform: rotate(10deg) scale(1.05);
+}
+.flower-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -57.5px;
+    margin-top: -57.5px;
+    border-radius: 50%;
+    z-index: 20;
+    height: 115px;
+    width: 115px;
+    background: #fff;
+}
+
+.box_desc_soluction{
+    float: right;
+    width: calc(100% - 440px);
+    border: solid 1px #d8d8d8;
+    border-radius: 10px;
+    padding: 15px 30px 30px 50px;
+    margin-top: 25px;
+}
+.box_desc_soluction h3{
+    margin-bottom: 45px;
+}
+.img-soluction{    height: 200px;
+    border-radius: 10px;
+    background: #696a6c;
+    }
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+
+}
+/* END RESPONSIVE */
