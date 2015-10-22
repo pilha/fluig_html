@@ -36,6 +36,9 @@ $url = "../components/follow-blog-min/";
                 <a class="post_news_link" href="#" alt="">Fluig incorpora conceitos de sites e apps populares</a>
             </div>
         </div>
+        <div class="col-md-12">
+            <hr>
+        </div>
     </div>
 </div>
 

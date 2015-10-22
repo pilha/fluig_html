@@ -17,13 +17,17 @@ $(document).ready(function () {
             headerMobile();
         }
     });
+
+    $(".dropdown").click(function () {
+        $(this).children(".dropdown-menu").slideToggle();
+    })
     /* END HEADER */
 
     select_box();
 
     /* box com mais informações sobre clientes ou parceiros */
     $(".box_with_case").click(function () {
-        
+
         $(".box_with_case").removeClass("active");
         $(this).addClass("active");
 
@@ -96,16 +100,16 @@ function select_box() {
 function box_visibles(b1, b2, b3, b4) {
     window_width = $(window).width();
     if (window_width > 991) {
-        box_visible = b1; 
+        box_visible = b1;
     }
     else if (window_width > 767) {
-        box_visible = b2; 
+        box_visible = b2;
     }
     else if (window_width > 450) {
-        box_visible = b3; 
+        box_visible = b3;
     }
     else {
-        box_visible = b4; 
+        box_visible = b4;
     }
 }
 $(window).resize(function () {

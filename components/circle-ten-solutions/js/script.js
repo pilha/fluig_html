@@ -15,10 +15,22 @@ $(document).ready(function () {
     /* EVENT HOVER ESPECIFIC TO PETAL "identity" */
     $(".p-identity").hover(
             function () {
-                $(".p-identity").css("transform", "rotate(46deg) scale(1.05)");
+                $(".p-identity").css(
+                        "transform", "rotate(46deg) scale(1.05)",
+                        '-webkit-transform', "rotate(46deg) scale(1.05)",
+                        '-moz-transform', "rotate(46deg) scale(1.05)",
+                        '-o-transform', "rotate(46deg) scale(1.05)",
+                        '-ms-transform', "rotate(46deg) scale(1.05)"
+                        );
             },
             function () {
-                $(".p-identity").css("transform", "rotate(46deg)");
+                $(".p-identity").css(
+                        "transform", "rotate(46deg)",
+                        '-webkit-transform', "rotate(46deg)",
+                        '-moz-transform', "rotate(46deg)",
+                        '-o-transform', "rotate(46deg)",
+                        '-ms-transform', "rotate(46deg)"
+                        );
             }
     );
     /* END EVENT HOVER ESPECIFIC TO PETAL "identity" */
@@ -50,7 +62,14 @@ $(document).ready(function () {
         }
         /* END TRANSFORM RESPONSIVE */
 
-        $(".box-flower-solutions").css("transform", "rotate(" + newPosition + "deg) scale(" + scale + ")");
+        $(".box-flower-solutions").css(
+                "transform", "rotate(" + newPosition + "deg) scale(" + scale + ")",
+                '-webkit-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")",
+                '-moz-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")",
+                '-o-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")",
+                '-ms-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")"
+
+                );
 
 
         var lastTransform = parseInt(clickSoluctions) + 4;

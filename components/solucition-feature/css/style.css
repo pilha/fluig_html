@@ -12,7 +12,10 @@
     margin-top: 20px;
 }
 .desc_solucition_feature{
+    width: -webkit-calc(100% - 130px);
+    width: -moz-calc(100% - 130px);
     width: calc(100% - 130px);
+
     display: inline-block;
 }
 .solucition_feature h2{

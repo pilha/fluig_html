@@ -1,5 +1,5 @@
 .container_circle_solucitions h2{
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 .box-flower-solutions{
     width: 425px;
@@ -21,7 +21,10 @@
     margin-left: 40px;
     cursor: pointer;
     overflow: hidden;
-    transition: opacity 0.25s ease-in-out;
+
+    -webkit-transform-origin: 172px  172px  ;
+    -moz-transform-origin: 172px  172px  ;
+    -o-transform-origin: 172px  172px  ;
     transform-origin: 172px  172px  ;
 
     -webkit-transition:	all .2s linear;
@@ -50,6 +53,9 @@
 
     width: 150px;
     height: 162px;
+    -webkit-transform: rotate(46deg);
+    -moz-transform: rotate(46deg);
+    -o-transform: rotate(46deg);
     transform: rotate(46deg);
 }
 
@@ -65,6 +71,9 @@
     width: 61%;
     text-align: center;
     font-size: 17.5px;
+    -webkit-transform: rotate(134deg);
+    -moz-transform: rotate(134deg);
+    -o-transform: rotate(134deg);
     transform: rotate(134deg);
 }
 .petal-solutions.petal-esb p,
@@ -84,81 +93,148 @@
     opacity:0;
 
     text-align: center;
+
+    -webkit-transform: rotate(134deg);
+    -moz-transform: rotate(134deg);
+    -o-transform: rotate(134deg);
     transform: rotate(134deg);
 }
 .petal-solutions.transform p,
 .petal-solutions.transform img{
+    -webkit-transform: rotate(314deg);
+    -moz-transform: rotate(314deg);
+    -o-transform: rotate(314deg);
     transform: rotate(314deg);
 }
 
 .petal-solutions:nth-child(2) {
+    -webkit-transform: rotate(46deg);
+    -moz-transform: rotate(46deg);
+    -o-transform: rotate(46deg);
     transform: rotate(46deg);
     z-index: 1
 }
 .petal-solutions:nth-child(3) {
+    -webkit-transform: rotate(82deg);
+    -moz-transform: rotate(82deg);
+    -o-transform: rotate(82deg);
     transform: rotate(82deg);
     z-index: 2
 }
 .petal-solutions:nth-child(4) {
+    -webkit-transform: rotate(118deg);
+    -moz-transform: rotate(118deg);
+    -o-transform: rotate(118deg);
     transform: rotate(118deg);
     z-index: 3
 }
 .petal-solutions:nth-child(5) {
+    -webkit-transform: rotate(154deg);
+    -moz-transform: rotate(154deg);
+    -o-transform: rotate(154deg);
     transform: rotate(154deg);
     z-index: 4
 }
 .petal-solutions:nth-child(6) {
+    -webkit-transform: rotate(190deg);
+    -moz-transform: rotate(190deg);
+    -o-transform: rotate(190deg);
     transform: rotate(190deg);
     z-index: 5
 }
 .petal-solutions:nth-child(7) {
+    -webkit-transform: rotate(226deg);
+    -moz-transform: rotate(226deg);
+    -o-transform: rotate(226deg);
     transform: rotate(226deg);
     z-index: 6
 }
 .petal-solutions:nth-child(8) {
+    -webkit-transform: rotate(262deg);
+    -moz-transform: rotate(262deg);
+    -o-transform: rotate(262deg);
     transform: rotate(262deg);
     z-index: 7
 }
 .petal-solutions:nth-child(9) {
+    -webkit-transform: rotate(298deg);
+    -moz-transform: rotate(298deg);
+    -o-transform: rotate(298deg);
     transform: rotate(298deg);
     z-index: 8
 }
 .petal-solutions:nth-child(10) {
+    -webkit-transform: rotate(334deg);
+    -moz-transform: rotate(334deg);
+    -o-transform: rotate(334deg);
     transform: rotate(334deg);
     z-index: 9
 }
 .petal-solutions:nth-child(11) {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
     transform: rotate(10deg);
     z-index: 10;
 }
 .petal-solutions:nth-child(2):hover {
+    -webkit-transform: rotate(46deg) scale(1.05);
+    -moz-transform: rotate(46deg) scale(1.05);
+    -o-transform: rotate(46deg) scale(1.05);
     transform: rotate(46deg) scale(1.05);
 }
 .petal-solutions:nth-child(3):hover {
+    -webkit-transform: rotate(82deg) scale(1.05);
+    -moz-transform: rotate(82deg) scale(1.05);
+    -o-transform: rotate(82deg) scale(1.05);
     transform: rotate(82deg) scale(1.05);
 }
 .petal-solutions:nth-child(4):hover {
+    -webkit-transform: rotate(118deg) scale(1.05);
+    -moz-transform: rotate(118deg) scale(1.05);
+    -o-transform: rotate(118deg) scale(1.05);
     transform: rotate(118deg) scale(1.05);
 }
 .petal-solutions:nth-child(5):hover {
+    -webkit-transform: rotate(154deg) scale(1.05);
+    -moz-transform: rotate(154deg) scale(1.05);
+    -o-transform: rotate(154deg) scale(1.05);
     transform: rotate(154deg) scale(1.05);
 }
 .petal-solutions:nth-child(6):hover {
+    -webkit-transform: rotate(190deg) scale(1.05);
+    -moz-transform: rotate(190deg) scale(1.05);
+    -o-transform: rotate(190deg) scale(1.05);
     transform: rotate(190deg) scale(1.05);
 }
 .petal-solutions:nth-child(7):hover {
+    -webkit-transform: rotate(226deg) scale(1.05);
+    -moz-transform: rotate(226deg) scale(1.05);
+    -o-transform: rotate(226deg) scale(1.05);
     transform: rotate(226deg) scale(1.05);
 }
 .petal-solutions:nth-child(8):hover {
+    -webkit-transform: rotate(262deg) scale(1.05);
+    -moz-transform: rotate(262deg) scale(1.05);
+    -o-transform: rotate(262deg) scale(1.05);
     transform: rotate(262deg) scale(1.05);
 }
 .petal-solutions:nth-child(9):hover {
+    -webkit-transform: rotate(298deg) scale(1.05);
+    -moz-transform: rotate(298deg) scale(1.05);
+    -o-transform: rotate(298deg) scale(1.05);
     transform: rotate(298deg) scale(1.05);
 }
 .petal-solutions:nth-child(10):hover {
+    -webkit-transform: rotate(334deg) scale(1.05);
+    -moz-transform: rotate(334deg) scale(1.05);
+    -o-transform: rotate(334deg) scale(1.05);
     transform: rotate(334deg) scale(1.05);
 }
 .petal-solutions:nth-child(11):hover {
+    -webkit-transform: rotate(10deg) scale(1.05);
+    -moz-transform: rotate(10deg) scale(1.05);
+    -o-transform: rotate(10deg) scale(1.05);
     transform: rotate(10deg) scale(1.05);
 }
 .flower-center{
@@ -176,7 +252,11 @@
 
 .box_desc_solution{
     float: right;
+    width: 60%;
+    width: -webkit-calc(100% - 435px);
+    width: -moz-calc(100% - 435px);
     width: calc(100% - 435px);
+
     border: solid 1px #d8d8d8;
     border-radius: 10px;
     padding: 15px 30px 30px 50px;
@@ -265,12 +345,26 @@
 .solution-indicators li.indicator-esb.active , .solution-indicators li.indicator-esb:hover { background: #575656;}
 
 /* RESPONSIVE */
+@media screen and (max-width: 1150px) {
+    .box_desc_solution{
+        width: 50%;
+        width: -webkit-calc(100% - 435px);
+        width: -moz-calc(100% - 435px);
+        width: calc(100% - 435px);
+    }
+}
 @media screen and (max-width: 1100px) {
     .box_desc_solution {
         padding: 15px 30px;
     }
 }
 @media screen and (max-width: 991px) {
+    .box_desc_solution{
+        width: 38%;
+        width: -webkit-calc(100% - 435px);
+        width: -moz-calc(100% - 435px);
+        width: calc(100% - 435px);
+    }
     .box_circle_solucitions{
         padding-bottom: 50px;
     }
@@ -341,7 +435,11 @@
         padding-top: 310px;
     }
     .box-flower-solutions{
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -o-transform: scale(.7);
         transform: scale(.7);
+
         position: absolute;
         left: 50%;
         top: 0;
@@ -360,6 +458,9 @@
         margin: 0 2px;
     }
     .box-flower-solutions{
+        -webkit-transform: scale(.6);
+        -moz-transform: scale(.6);
+        -o-transform: scale(.6);
         transform: scale(.6);
         margin-left: -212px;
     }

@@ -246,16 +246,30 @@ label{
     left: 2px;
     font-size: 11px;
     color: #ea195a;
-    transition: all .2s;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+
+
     font-weight: bold;
 }
 /* checked mark aspect changes */
 [type="checkbox"]:not(:checked) + label:after {
     opacity: 0;
+
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
     transform: scale(0);
 }
 [type="checkbox"]:checked + label:after {
     opacity: 1;
+    
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
     transform: scale(1);
 }
 /* disabled checkbox */
@@ -465,6 +479,12 @@ ul.dropdown-menu:before {
     height: 20px;
     background: #FFF;
     transform: rotate(45deg);
+    
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+   
     top: -10px;
     left: 50%;
     margin-left: -10px;
@@ -510,9 +530,9 @@ ul.dropdown-menu:before {
 .nav2 .navbar-nav>li>p {
     color:#57585a;
 }
-.nav2 .navbar-nav>li>p span , .nav2 .navbar-nav>li>a span{
+.nav2 .navbar-nav>li>p span, .nav2 .navbar-nav>li>a span{
     font-size: 14px;
-    font-weight: bold;
+    font-family: 'open_sansbold';
     line-height: 17px;
 }
 .nav2 .navbar-nav>li.btn_help{
@@ -569,6 +589,7 @@ ul.dropdown-menu:before {
 }
 .nav2 .navbar-nav>li>a.btn_vendas, .nav2 .navbar-nav>li>a.btn_suport{
     color: #57585a;
+    white-space: nowrap;
 }
 .nav2 .navbar-nav>li>a.btn_suport:before{
     background-position: -56px 14px; 
@@ -578,11 +599,12 @@ a.btn_social_media, .change a.btn_social_media{
     width: 30px;
     background: url(../images/icons.png) no-repeat;
     padding: 0;
-    margin-left: 5px;    
-    display: inline-block;
+    margin-left: 4px;    
+    display: inline-block;  
 }
 .box_social_media{
-    width: 151px
+    width: 151px;
+        text-align: right;
 }
 a.btn_social_media.btn_linkedin{
     background-position: -124px center;
@@ -828,7 +850,7 @@ div.not-supported{
     .nav2 .navbar-nav>li.btn_help.change>p:after {
         right: 15px;
     }
-    .nav1 .navbar-nav>li.active>a, .nav1 .navbar-nav>li>a:hover     {
+    .nav1 .navbar-nav>li.active>a, .nav1 .navbar-nav>li>a:hover {
         color: #ed145b;
     }
     ul.dropdown-menu{
@@ -840,7 +862,11 @@ div.not-supported{
         top: 0;
         left: 0;
         box-shadow: none;
-        padding: 5px 0
+        padding: 5px 0;
+
+    }
+    ul.nav li.dropdown:hover ul.dropdown-menu{
+        display: none;
     }
     ul li:last-child .dropdown-menu{
         margin-bottom: 0;
@@ -986,6 +1012,7 @@ div.not-supported{
         -webkit-transform: rotate(181deg);
         -moz-transform: rotate(181deg);
         -o-transform: rotate(181deg);
+        transform: rotate(181deg);
         writing-mode: lr-tb;
     }
     .nav2 .nav>li a:not(.btn_social_media) {
@@ -1100,6 +1127,7 @@ div.not-supported{
         -webkit-transform: rotate(181deg);
         -moz-transform: rotate(181deg);
         -o-transform: rotate(181deg);
+        transform: rotate(181deg);
         writing-mode: lr-tb;
     }
     .nav-tabs>li>a{
