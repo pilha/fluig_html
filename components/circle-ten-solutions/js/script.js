@@ -26,26 +26,38 @@ $(document).ready(function () {
     /* EVENT CLICK PETAL*/
     $(".petal-solutions").click(function () {
         var clickSoluctions = parseInt($(this).attr("data-solutions"));
-        var newPosition = clickSoluctions * 36 - 36;
+        var newPosition;
+        var scale;
+        var windowWidth = $(window).width();
 
 
+        /* TRANSFORM RESPONSIVE */
+        if (windowWidth <= 730) {
+            newPosition = clickSoluctions * 36 + 72;
 
-//        var oldTransform = $(".box-flower-solutions").css('transform').split(',')[0];
-//        console.log(oldTransform);
+            if (windowWidth <= 351) {
+                scale = ".6";
+            } else if (windowWidth <= 486) {
+                scale = ".7";
+            } else {
+                scale = "1";
+            }
+            clickSoluctions = clickSoluctions + 3;
+        }
+        else {
+            newPosition = clickSoluctions * 36 - 36;
+            scale = "1";
+        }
+        /* END TRANSFORM RESPONSIVE */
+
+        $(".box-flower-solutions").css("transform", "rotate(" + newPosition + "deg) scale(" + scale + ")");
 
 
-
-
-
-
-
-        $(".box-flower-solutions").css("transform", "rotate(" + newPosition + "deg)");
         var lastTransform = parseInt(clickSoluctions) + 4;
         if (lastTransform > 10) {
             lastTransform = lastTransform - 10;
         }
-        // clickSoluctions = petal clicked
-        // lastTransform = last petal with class transform
+
 
         $(".petal-solutions").each(function () {
 

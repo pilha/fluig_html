@@ -14,10 +14,11 @@
     margin-right: 0;
 }
 .tab_icon{
-    background-image: url("../images/markets_sprite.png");
+    background: url("../images/markets_sprite.png") no-repeat;
     float: left;
     width: 110px;
     height: 110px;
+    background-size: 500%;
 }
 .icon_servicos {
     background-position: -111px 0;
@@ -89,6 +90,24 @@
 @media screen and (max-width: 700px) {
     .box-info_history-customer {
         margin: 30px 0;
+    }
+    .info_history-customer{
+        margin-left: 130px
+    }
+}
+@media screen and (max-width: 450px) {
+    .box-info_history-customer {
+        margin: 30px 0;
+    }
+    .tab_icon {
+        width: 90px;
+        height: 90px;
+    }
+    .info_history-customer{
+        margin-left: 105px
+    }
+    .info_history-customer h3{
+        margin-top: 0;
     }
 }
 /* END RESPONSIVE */

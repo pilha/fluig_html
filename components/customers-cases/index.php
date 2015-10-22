@@ -99,7 +99,7 @@ $url_base = "../components/customers-cases";
 </div>
 <div class="container transition">
     <div class="row no-padding box-customers">            
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="1">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="1">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                 <div class="icons-customer-img">
@@ -108,7 +108,7 @@ $url_base = "../components/customers-cases";
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="2">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="2">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                 <div class="icons-customer-img">
@@ -116,7 +116,7 @@ $url_base = "../components/customers-cases";
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="3">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="3">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                 <div class="icons-customer-img">
@@ -124,77 +124,77 @@ $url_base = "../components/customers-cases";
                 </div>
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="4">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="4">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div> 
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="5">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="5">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="6">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="6">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="7">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="7">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="8">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="8">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="9">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="9">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="10">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="10">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="11">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="11">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="12">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="12">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="13">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="13">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="14">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="14">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="15">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="15">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="16">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="16">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="17">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="17">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>
         </div>
-        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_customer_open col-6-mobile" data-id="18">
+        <div class="col-md-2 col-sm-3 col-xs-4 box_img_center box_customer_img box_with_case col-6-mobile" data-id="18">
             <div class="col-md-12 customer-img">
                 <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
             </div>

@@ -38,32 +38,32 @@ $url_base = "../components/history-customers";
                     </div>
                 </div>
                 <div class="no-padding history-box-customers">            
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="1">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="2">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="3">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="4">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div> 
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="5">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="6">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
@@ -84,32 +84,32 @@ $url_base = "../components/history-customers";
                     </div>
                 </div>
                 <div class="no-padding history-box-customers">            
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="1">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="2">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="3">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="4">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div> 
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="5">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="6">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
@@ -130,32 +130,32 @@ $url_base = "../components/history-customers";
                     </div>
                 </div>
                 <div class="no-padding history-box-customers">            
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="1">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="2">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="3">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="4">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div> 
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="5">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="6">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
@@ -176,32 +176,32 @@ $url_base = "../components/history-customers";
                     </div>
                 </div>
                 <div class="no-padding history-box-customers">            
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="1">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="2">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="3">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="4">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div> 
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="5">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="6">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
@@ -222,32 +222,32 @@ $url_base = "../components/history-customers";
                     </div>
                 </div>
                 <div class="no-padding history-box-customers">            
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="1">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="2">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="3">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="4">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div> 
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="5">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
                     </div>
-                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile" data-id="6">
+                    <div class="col-md-2 col-sm-4 col-xs-4 box_img_center box_customer_img col-6-mobile">
                         <div class="col-md-12 history-customer-img">
                             <img src="<?php echo $url_base ?>/images/customer.jpg" alt="customer">   
                         </div>
