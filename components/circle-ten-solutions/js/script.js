@@ -35,18 +35,24 @@ $(document).ready(function () {
     );
     /* END EVENT HOVER ESPECIFIC TO PETAL "identity" */
 
+    /* ROLATE RESPONSIVE */
+    setTimeout(function () {
+        $(".petal-solutions.petal-ecm").trigger('click');
+    }, 800);
+    $(window).resize(function () {
+        $(".petal-solutions.petal-ecm").trigger('click');
+    });
+    /* ROLATE RESPONSIVE */
+
     /* EVENT CLICK PETAL*/
     $(".petal-solutions").click(function () {
         var clickSoluctions = parseInt($(this).attr("data-solutions"));
         var newPosition;
         var scale;
         var windowWidth = $(window).width();
-
-
         /* TRANSFORM RESPONSIVE */
         if (windowWidth <= 730) {
             newPosition = clickSoluctions * 36 + 72;
-
             if (windowWidth <= 351) {
                 scale = ".6";
             } else if (windowWidth <= 486) {
@@ -70,8 +76,6 @@ $(document).ready(function () {
                 '-ms-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")"
 
                 );
-
-
         var lastTransform = parseInt(clickSoluctions) + 4;
         if (lastTransform > 10) {
             lastTransform = lastTransform - 10;
@@ -102,6 +106,11 @@ $(document).ready(function () {
             }
 
         });
+        
+        /* add class "active" in $(".solution-indicators li") */
+        $(".solution-indicators li").removeClass("active");
+        $(".solution-indicators li[data-solution-to="+ $(this).attr("data-solutions")+"]").addClass("active");
+        /* END */
     });
     /* END EVENT CLICK PETAL*/
 
@@ -109,21 +118,14 @@ $(document).ready(function () {
     $(".solution-indicators li").click(function () {
         $(".solution-indicators li").removeClass("active");
         $(this).addClass("active");
-
         var dataTarget = $(this).attr("data-target");
         var dataSolutionTo = parseInt($(this).attr("data-solution-to"));
-
-        console.log(dataTarget + " div[data-solutions=" + dataSolutionTo + "]");
-
         $(dataTarget + " div[data-solutions=" + dataSolutionTo + "]").trigger('click');
-
     });
 });
-
 /* ANIMATION ON LOAD PAGE */
 var animationDelay = 500;
 var offset = 100;
-
 function animatePetal(obj) {
     setTimeout(function () {
         $(obj).animate({
