@@ -101,8 +101,6 @@ $url_base = "../components/our-customers";
     <div class="divisor_bottom"></div>
 </div>
 
-
-
 <!-- JS SPECIFIC -->
 <script src="<?php echo $url_base ?>/js/script.js" type="text/javascript"></script>
 <!-- END JS SPECIFIC -->

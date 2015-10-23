@@ -110,12 +110,12 @@
         <div class="container_tpl">
             <?php
             /* HOME */
-            include "../components/follow-blog-min/index.php";
-            include "../components/circle-ten-solutions/index.php";
-            include "../components/advantages-fluig/index.php";
-            include "../components/application-fluig/index.php";
-            include "../components/our-customers/index.php";
-            include "../components/history-customers/index.php";
+//            include "../components/follow-blog-min/index.php";
+//            include "../components/circle-ten-solutions/index.php";
+//            include "../components/advantages-fluig/index.php";
+//            include "../components/application-fluig/index.php";
+//            include "../components/our-customers/index.php";
+//            include "../components/history-customers/index.php";
             /* END HOME */
 
             /* CUSTOMERS CASES */
@@ -131,8 +131,8 @@
             /* END SEACH PARTNERS */
 
             /* WORK WITH US */
-//            include "../components/work-with-us/index.php";
-//            include "../components/follow-blog/index.php";
+            include "../components/work-with-us/index.php";
+            include "../components/follow-blog/index.php";
             /* END WORK WITH US */
 
             /* SOLUTION FEATURE */

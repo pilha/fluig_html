@@ -39,8 +39,15 @@ $(document).ready(function () {
     setTimeout(function () {
         $(".petal-solutions.petal-ecm").trigger('click');
     }, 800);
+    
+    var windowW = $(window).width();
     $(window).resize(function () {
-        $(".petal-solutions.petal-ecm").trigger('click');
+        var newWidth = $(window).width();
+        
+        if (newWidth !== windowW) {
+            $(".petal-solutions.petal-ecm").trigger('click');
+            windowW = newWidth;
+        }
     });
     /* ROLATE RESPONSIVE */
 
@@ -106,10 +113,10 @@ $(document).ready(function () {
             }
 
         });
-        
+
         /* add class "active" in $(".solution-indicators li") */
         $(".solution-indicators li").removeClass("active");
-        $(".solution-indicators li[data-solution-to="+ $(this).attr("data-solutions")+"]").addClass("active");
+        $(".solution-indicators li[data-solution-to=" + $(this).attr("data-solutions") + "]").addClass("active");
         /* END */
     });
     /* END EVENT CLICK PETAL*/

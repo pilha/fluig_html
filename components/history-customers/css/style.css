@@ -103,6 +103,18 @@
         width: 90px;
         height: 90px;
     }
+    .icon_servicos {
+        background-position: -90px 0;
+    }
+    .icon_varejo {
+        background-position: -180px 0;
+    }
+    .icon_construcao {
+        background-position: -270px 0;
+    }
+    .icon_distribuicao {
+        background-position: -360px 0;
+    }
     .info_history-customer{
         margin-left: 105px
     }
