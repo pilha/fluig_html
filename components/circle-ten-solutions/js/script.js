@@ -60,9 +60,9 @@ $(document).ready(function () {
         /* TRANSFORM RESPONSIVE */
         if (windowWidth <= 730) {
             newPosition = clickSoluctions * 36 + 72;
-            if (windowWidth <= 351) {
+            if (windowWidth <= 350) {
                 scale = ".6";
-            } else if (windowWidth <= 486) {
+            } else if (windowWidth <= 485) {
                 scale = ".7";
             } else {
                 scale = "1";
@@ -76,12 +76,18 @@ $(document).ready(function () {
         /* END TRANSFORM RESPONSIVE */
 
         $(".box-flower-solutions").css(
-                "transform", "rotate(" + newPosition + "deg) scale(" + scale + ")",
-                '-webkit-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")",
-                '-moz-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")",
-                '-o-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")",
-                '-ms-transform', "rotate(" + newPosition + "deg) scale(" + scale + ")"
-
+                "transform", "rotate(" + newPosition + "deg)",
+                '-webkit-transform', "rotate(" + newPosition + "deg)",
+                '-moz-transform', "rotate(" + newPosition + "deg)",
+                '-o-transform', "rotate(" + newPosition + "deg)",
+                '-ms-transform', "rotate(" + newPosition + "deg)"
+                );
+        $(".box-circle-flower-solutions").css(
+                "transform", "scale(" + scale + ")",
+                '-webkit-transform', "scale(" + scale + ")",
+                '-moz-transform', "scale(" + scale + ")",
+                '-o-transform', "scale(" + scale + ")",
+                '-ms-transform', "scale(" + scale + ")"
                 );
         var lastTransform = parseInt(clickSoluctions) + 4;
         if (lastTransform > 10) {

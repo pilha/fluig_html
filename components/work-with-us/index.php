@@ -32,8 +32,7 @@ $url_base = "../components/work-with-us";
                                 <input id="work-with-us-name" name="work-with-us-name" type="text" placeholder="" class="form-control input-md" required="">
                             </div>
                         </div>
-
-
+                        
                         <div class="form-group">
                             <label class="col-md-4 col-sm-4 col-xs-4 control-label label-left" for="work-with-us-email">E-mail * </label>  
                             <div class="col-md-8 col-sm-8 col-xs-8 col-xs-8 no-pd-l">

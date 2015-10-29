@@ -1,80 +1,106 @@
-.container-work-with-us{
-    position: relative;
+.container-meet-the-fluig{
+    background: url(../images/bg-meet-the-fluig.png) top 170px left 33% no-repeat;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+
 }
-.box-image-work-with-us{
-    margin-bottom: -8px;
+.box-text-meet-the-fluig-r{
+    margin-bottom: 30px;
 }
-.box-form-work-with-us{
-    position: absolute;
-    right: 20px;
+.box-text-meet-the-fluig-r-center{
+    border-radius: 10px;
+    padding: 20px 60px 20px 160px; 
+    background: url(../images/ico-meet-the-fluig.png) center left 20px no-repeat #A6CE39;
 }
-.box-center-form-work-with-us{
-    height: 440px;
+.box-text-meet-the-fluig-r-center p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.box-center-form-meet-the-fluig{
     background: #eaedf2;
     border-radius: 10px;
-    padding: 30px;
+    padding: 30px 30px 15px 30px;
 }
-.box-form-work-with-us .form-group {
+.box-form-meet-the-fluig .form-group {
     margin-bottom: 18px;
 }
-.box-form-work-with-us .box-checkbox{
-    top: 32px;
-    left: 0;
-    right: 15px;
-    z-index: 1;
+.box-form-meet-the-fluig .control-label.label-required{
+    margin-top: 16px;
 }
-.box-form-work-with-us .control-label.label-required{
-    margin-top: 22px;
+.box-form-meet-the-fluig div.label-sn{
+    text-align: right;
 }
-.container-work-with-us hr{
+.box-center-form-meet-the-fluig .label-sn label.label-left{
     margin-top: 0;
 }
-@media screen and (max-width: 1320px) {
-    .box-form-work-with-us{
-        top: 15px;
+.box-interest-news{
+    margin-top: 10px;
+}
+.box-interest-news label{
+    white-space: normal !important;
+}
+.form-part-2{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    .container-meet-the-fluig{
+        background-position-x: 50%;
     }
 }
 @media screen and (max-width: 991px){
-    .box-image-work-with-us{
-        display: none;
+    .box-text-meet-the-fluig-r-center {
+        padding: 20px 30px 20px 160px;
     }
-    .box-form-work-with-us{
-        padding: 0 15px;
-        right: auto;
-        margin:15px 0;
-        position: relative;
-        background: url(../images/img-work-with-us.png) bottom -8px left no-repeat;
-    }
-    .box-form-work-with-us .control-label.label-required{
-        margin-top: 10px;
-    }
-
 }
 @media screen and (max-width: 767px){
-    .box-form-work-with-us{
-        background: none;
-        margin: 35px 0; 
+    .container-meet-the-fluig {
+        background: url(../images/bg-meet-the-fluig.png) bottom -300px left 350px no-repeat;
     }
-    .box-center-form-work-with-us {
-        height: auto;
+    .box-text-meet-the-fluig-l p{
+        margin-bottom: 30px;
     }
-    .box-form-work-with-us .control-label.label-required {
-        margin-top: 28px;
+    .box-form-meet-the-fluig .control-label.label-required {
+        margin-top: 25px;
     }
-    .container-work-with-us hr{
-        margin-top: 50px;
+    .box-center-form-meet-the-fluig label.label-left {
+        margin-top: 6px;
+    }
+    .box-form-meet-the-fluig label.label-left.text-left{
+        padding-left: 15px;
+    }
+    .box-interest-news{
+        padding-left: 15px;
+    }
+    .form-part-2 .form-group .btn {
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 460px){
+    .box-text-meet-the-fluig-r-center {
+        padding: 110px 15px 15px 15px;
+        background: url(../images/ico-meet-the-fluig-mobile.png) top 5px center no-repeat #A6CE39;
+    }
+    .box-text-meet-the-fluig-l p{
+        margin-bottom: 30px;
+    }
+    .box-text-meet-the-fluig-r-center p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .box-text-meet-the-fluig-r {
+        margin-bottom: 15px;
     }
 }
 @media screen and (max-width: 450px){
-    .box-center-form-work-with-us{
+    .box-center-form-meet-the-fluig{
         padding: 15px;
     }
 }
 @media screen and (max-width: 410px){
-    .box-center-form-work-with-us {
+    .box-center-form-meet-the-fluig {
         padding-bottom: 0;
     }
-    .box-form-work-with-us .control-label.label-required{
+    .box-form-meet-the-fluig .control-label.label-required{
         padding: 0 15px;
         width: 100%;
         display: block;
@@ -82,7 +108,13 @@
         text-align: right;
         margin: 0;
     }
-    #form-work-with-us .buttom-form{
+    #form-meet-the-fluig .form-part-1 .buttom-form{
         width: 100%;
+    }
+}
+@media screen and (max-width: 410px){
+    .box-center-form-meet-the-fluig  .label-sn label{
+        display: block;
+        float: none;
     }
 }

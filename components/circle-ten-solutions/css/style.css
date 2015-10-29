@@ -1,5 +1,15 @@
+.container_circle_solucitions{
+    padding-bottom: 15px;
+}
 .container_circle_solucitions h2{
     margin-bottom: 50px;
+}
+.box-circle-flower-solutions{
+    width: 425px;
+    height: 425px;
+    position: relative;
+    float: left;
+    display: block;
 }
 .box-flower-solutions{
     width: 425px;
@@ -10,7 +20,6 @@
     -moz-transition: all 1s linear;
     -o-transition: all 1s linear;
     transition: all 1s linear;
-
 }
 .petal-solutions{
     position: absolute;
@@ -27,10 +36,10 @@
     -o-transform-origin: 172px  172px  ;
     transform-origin: 172px  172px  ;
 
-    -webkit-transition:	all .2s linear;
-    -moz-transition: all .2s linear;
-    -o-transition: all .2s linear;
-    transition: all .2s linear;
+    -webkit-transition:	all .2s ;
+    -moz-transition: all .2s ;
+    -o-transition: all .2s ;
+    transition: all .2s ;
 
     opacity: 0;
 }
@@ -182,6 +191,9 @@
     -moz-transform: rotate(46deg) scale(1.05);
     -o-transform: rotate(46deg) scale(1.05);
     transform: rotate(46deg) scale(1.05);
+
+
+
 }
 .petal-solutions:nth-child(3):hover {
     -webkit-transform: rotate(82deg) scale(1.05);
@@ -247,7 +259,7 @@
     z-index: 20;
     height: 115px;
     width: 115px;
-    background: #fff;
+    background: url(../images/ico_fluig.jpg) center no-repeat #fff;
 }
 
 .box_desc_solution{
@@ -325,7 +337,6 @@
     display: inline-block;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     border-radius: 10px;
 
     -webkit-transition:	all .2s linear;
@@ -398,7 +409,7 @@
     }
 }
 @media screen and (max-width: 730px) {
-    .box-flower-solutions {
+    .box-circle-flower-solutions {
         float: none;
         margin: auto;
     }
@@ -432,7 +443,12 @@
 @media screen and (max-width: 485px) {
     .box_circle_solucitions{
         position: relative;
-        padding-top: 310px;
+        padding-top: 0;
+    }
+    .box-circle-flower-solutions{
+        margin-top: -80px;
+        margin-bottom: -65px;
+        width: 279px;
     }
     .box-flower-solutions{
         -webkit-transform: scale(.7);
@@ -444,9 +460,8 @@
         left: 50%;
         top: 0;
         margin-left: -212px;
-        margin-top: -60px;
+        margin-top: 0;
     }
-
 }
 @media screen and (max-width: 450px) {
     .container_circle_solucitions h2 {
@@ -454,6 +469,11 @@
     }
 }
 @media screen and (max-width: 350px) {
+    .box-circle-flower-solutions{
+        margin-top: -110px;
+        margin-bottom: -85px;
+        width: 279px;
+    }
     .solution-indicators li, .solution-indicators li.active {        
         margin: 0 2px;
     }

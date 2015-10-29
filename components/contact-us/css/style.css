@@ -1,0 +1,121 @@
+.container-contact-us{
+    background: url(../images/bg-contact-us.png) top 170px left 33% no-repeat;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+}
+.box-text-contact-us{
+    margin-bottom: 30px;
+}
+.box-text-contact-us-center{
+    border-radius: 10px;
+    padding: 25px 30px ;
+    background: #DDDDDD;
+}
+.box-text-contact-us p{
+    margin-bottom: 0
+}
+.box-text-contact-us .radio-inline{
+    margin-top: 13px;
+}
+.box-center-form-contact-us{
+    background: #eaedf2;
+    border-radius: 10px;
+    padding: 30px 30px 15px 30px;
+}
+.box-center-form-contact-us .radio-inline{
+    padding-right: 20px;
+}
+.box-form-contact-us{
+    margin-bottom: 50px;
+}
+.box-form-contact-us .form-group {
+    margin-bottom: 18px;
+}
+.box-form-contact-us .control-label.label-required{
+    margin-top: 16px;
+}
+.box-interest-news{
+    margin-top: 10px;
+}
+.box-interest-news label{
+    white-space: normal !important;
+}
+.container-contact-us .box-checkbox{
+    top: 32px;
+    left: 0;
+}
+.container-contact-us label.label-left, .container-contact-us [type="checkbox"]:not(:checked) + label.label-left, .container-contact-us [type="checkbox"]:checked + label.label-left{
+    white-space: normal
+}
+@media screen and (max-width: 1024px){
+    .container-contact-us{
+        background-position-x: 50%;
+    }
+}
+@media screen and (max-width: 767px){
+    .container-contact-us{
+        padding: 0;
+        padding-bottom: 100px;
+    }
+    .box-text-contact-us {
+        margin-bottom: 15px;
+    }
+    .box-text-contact-us .radio-inline {
+        margin-top: 0;
+    }
+    .box-form-contact-us .control-label.label-required {
+        margin-top: 25px;
+    }
+    .box-interest-news{
+        margin-left: 15px;
+    }
+    .container-contact-us label.label-left, .container-contact-us [type="checkbox"]:not(:checked) + label.label-left, .container-contact-us [type="checkbox"]:checked + label.label-left{
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 550px){
+    .box-text-contact-us-center .box-text-contact{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .box-text-contact-us-center .box-text-contact br{
+        display: none;
+    }
+    .box-text-contact-us-center .col-mobile-12{
+        width: 50%;
+        text-align: center;
+    }
+    .box-text-contact-us-center .col-mobile-12 input{
+        left: 10px;
+    }
+}
+@media screen and (max-width: 450px){
+    .box-center-form-contact-us{
+        padding: 15px;
+    }
+    .box-text-contact-us-center .col-mobile-12{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 410px){
+    .box-center-form-contact-us {
+        padding-bottom: 0;
+    }
+    .box-form-contact-us .control-label.label-required{
+        padding: 0 15px;
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: right;
+        margin: 0;
+    }
+    .box-center-form-contact-us .radio-inline {
+        padding-right: 10px;
+        margin: 0;
+    }
+    #form-contact-us .buttom-form{
+        width: 100%;
+    }
+}

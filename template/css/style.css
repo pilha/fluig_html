@@ -97,7 +97,7 @@ b, strong {
 a:hover{
     color: #FF125B;
 }
-h2{
+h1, h2{
     font-weight: normal;
     font-size: 32px;
     color: #57585a;
@@ -164,10 +164,19 @@ label{
     width: 100%;
     cursor: pointer;
 }
-label.label-left{
+label.radio-inline{
+    width: auto;
+}
+label.label-left , 
+[type="checkbox"]:not(:checked) + label.label-left,
+[type="checkbox"]:checked + label.label-left{
     margin-top: 0;
     color: #808285;
-    white-space: nowrap;
+    font-family: 'open_sansregular';
+}
+label.label-left.text-left{
+    text-align: left;
+        white-space: normal;
 }
 .form-horizontal label.no-pd-t{
     padding-top: 0;
@@ -190,7 +199,6 @@ input.error ~ label{
 }
 .control-label.label-required{
     font-size: 12px;
-    text-align: left;
 }
 .btn, .btn:hover, .btn.focus, .btn:focus, .btn:hover{
     color: #fff;
@@ -259,7 +267,6 @@ input.input-upload-file{
 [type="checkbox"]:not(:checked),
 [type="checkbox"]:checked {
     position: absolute;
-    left: -9999px;
 }
 [type="checkbox"]:not(:checked) + label,
 [type="checkbox"]:checked + label ,
@@ -694,7 +701,7 @@ footer{
     width: 76%;
 }
 footer .form-horizontal .form-group {
-    margin: 13px 0 0 0;
+    margin: 16px 0 0 0;
 }
 footer .list-inline {
     margin-left: 0;

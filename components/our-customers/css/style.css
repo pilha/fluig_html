@@ -15,7 +15,7 @@
     margin-bottom: 55px;
 }
 .box-our-customers-center .box_img_center{
-    height: 134px
+    height: 150px
 }
 .desc-our-customers{
     padding: 17px 5px 20px 12px;
@@ -23,6 +23,7 @@
 .desc-our-customers p{
     line-height: 15px;
     margin-bottom: 18px;
+    min-height: 60px;
 }
 .container_our_customers .btn_todos{
     margin: 60px 0 25px 0;

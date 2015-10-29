@@ -22,9 +22,20 @@
     margin-bottom: 0
 }
 .solucition_feature hr{
-    border-top: 1px solid #d50a52;
+    border-top: 1px solid;
     margin: 15px 0;
 }
+.page-identity .solucition_feature hr{ border-color: #d50a52;}
+.page-bpm .solucition_feature hr{ border-color: #d94d14;}
+.page-ecm .solucition_feature hr{ border-color: #eb6607;}
+.page-analytics .solucition_feature hr{ border-color: #f7a600;}
+.page-mall .solucition_feature hr{ border-color: #ffcc00;}
+.page-social .solucition_feature hr{ border-color: #dedc00;}
+.page-wcm .solucition_feature hr{ border-color: #aec90a;}
+.page-esb .solucition_feature hr{ border-color: #575656;}
+.page-lms .solucition_feature hr{ border-color: #ffeb6b;}
+.page-mobile .solucition_feature hr{ border-color: #f0e403;}
+
 .solucition_feature.container-component-divisor .img_solucition_feature{
     margin: 70px 0 30px 0;
 }

@@ -2,11 +2,6 @@
 $url_base = "../components/solucition-feature";
 ?>
 
-<!-- CSS SPECIFIC -->
-<link href="<?php echo $url_base ?>/css/style.css" rel="stylesheet">
-<!-- JS SPECIFIC -->
-
-<!--A class "container-component-divisor" deve ser inserida apenas caso o fundo seja CINZA-->  
 <div class="solucition_feature relative container-component-divisor">
     <div class="divisor_top"></div>
     <div class="container container_solucition_feature">
@@ -76,4 +71,14 @@ $url_base = "../components/solucition-feature";
     </div>
     <div class="divisor_bottom"></div>
 </div>
+
+
+
+
+<!-- CSS SPECIFIC -->
+<link href="<?php echo $url_base ?>/css/style.css" rel="stylesheet">
+<!-- JS SPECIFIC -->
+
+<!--A class "container-component-divisor" deve ser inserida apenas caso o fundo seja CINZA-->  
+
 

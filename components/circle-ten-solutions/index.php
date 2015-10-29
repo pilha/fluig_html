@@ -6,8 +6,6 @@ $url_base = "../components/circle-ten-solutions";
 <link href="<?php echo $url_base ?>/css/style.css" rel="stylesheet">
 <!-- JS SPECIFIC -->
 
-
-
 <div class="container container_circle_solucitions">
     <div class="row clearfix">
         <div class="col-md-12">
@@ -15,48 +13,50 @@ $url_base = "../components/circle-ten-solutions";
         </div>
     </div>
     <div class="col-md-12 no-padding clearfix box_circle_solucitions">
-        <div class="box-flower-solutions" id="circle-solutions">     
-            <div class="petal-solutions under p-identity transform" data-solutions="3"> 
-                <p>identity</p>
-                <img src="<?php echo $url_base ?>/images/identity.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-identity p-identity transform" data-solutions="3">
-            </div>
-            <div class="petal-solutions petal-bpm transform" data-solutions="2">
-                <p>bpm</p>
-                <img src="<?php echo $url_base ?>/images/bpm.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-ecm transform" data-solutions="1">
-                <p>ecm</p>
-                <img src="<?php echo $url_base ?>/images/ecm.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-analytics" data-solutions="10">
-                <p>analytics</p>
-                <img src="<?php echo $url_base ?>/images/analytics.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-mall" data-solutions="9">
-                <p>mall</p>
-                <img src="<?php echo $url_base ?>/images/mall.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-social" data-solutions="8">
-                <p>social</p>
-                <img src="<?php echo $url_base ?>/images/social.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-wcm" data-solutions="7">
-                <p>wcm</p>
-                <img src="<?php echo $url_base ?>/images/wcm.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-mobile" data-solutions="6">
-                <p>mobile</p>
-                <img src="<?php echo $url_base ?>/images/mobile.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-lms transform" data-solutions="5">
-                <p>lms</p>
-                <img src="<?php echo $url_base ?>/images/lms.png" alt=""/>
-            </div>
-            <div class="petal-solutions petal-esb transform" data-solutions="4">
-                <p>esb</p>
-                <img src="<?php echo $url_base ?>/images/esb.png" alt=""/>
+        <div class="box-circle-flower-solutions">     
+            <div class="box-flower-solutions" id="circle-solutions">     
+                <div class="petal-solutions under p-identity transform" data-solutions="3"> 
+                    <p>identity</p>
+                    <img src="<?php echo $url_base ?>/images/identity.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-identity p-identity transform" data-solutions="3">
+                </div>
+                <div class="petal-solutions petal-bpm transform" data-solutions="2">
+                    <p>bpm</p>
+                    <img src="<?php echo $url_base ?>/images/bpm.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-ecm transform" data-solutions="1">
+                    <p>ecm</p>
+                    <img src="<?php echo $url_base ?>/images/ecm.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-analytics" data-solutions="10">
+                    <p>analytics</p>
+                    <img src="<?php echo $url_base ?>/images/analytics.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-mall" data-solutions="9">
+                    <p>mall</p>
+                    <img src="<?php echo $url_base ?>/images/mall.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-social" data-solutions="8">
+                    <p>social</p>
+                    <img src="<?php echo $url_base ?>/images/social.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-wcm" data-solutions="7">
+                    <p>wcm</p>
+                    <img src="<?php echo $url_base ?>/images/wcm.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-mobile" data-solutions="6">
+                    <p>mobile</p>
+                    <img src="<?php echo $url_base ?>/images/mobile.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-lms transform" data-solutions="5">
+                    <p>lms</p>
+                    <img src="<?php echo $url_base ?>/images/lms.png" alt=""/>
+                </div>
+                <div class="petal-solutions petal-esb transform" data-solutions="4">
+                    <p>esb</p>
+                    <img src="<?php echo $url_base ?>/images/esb.png" alt=""/>
+                </div>
             </div>
             <div class="flower-center"></div>
         </div>
@@ -83,12 +83,12 @@ $url_base = "../components/circle-ten-solutions";
             <li data-target="#circle-solutions" data-solution-to="8" class="indicator-social"></li>
             <li data-target="#circle-solutions" data-solution-to="9" class="indicator-mall"></li>
             <li data-target="#circle-solutions" data-solution-to="10" class="indicator-analytics"></li>
-            
-            
-            
-            
-            
-            
+
+
+
+
+
+
         </ol>
     </div>
 

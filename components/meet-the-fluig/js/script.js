@@ -1,19 +1,21 @@
 $(document).ready(function () {
 
     // validate
-    $("#form-work-with-us").validate({
+    $("#form-meet-the-fluig").validate({
         rules: {
-            "work-with-us-email": {
+            "meet-the-fluig-email": {
                 email: true
             }
         },
         messages: {
-            "work-with-us-name": "Digite seu nome",
-            "work-with-us-email": "Digite um email válido",
-            "work-with-us-phone": "Digite seu telefone",
-            "work-with-us-cpf": "Digite seu CPF",
+            "meet-the-fluig-name": "Digite seu nome",
+            "meet-the-fluig-email": "Digite um email válido",
+            "meet-the-fluig-phone": "Digite seu telefone",
+            "meet-the-fluig-cpf": "Digite seu CPF",
             "uploadFile": "Selecione um arquivo PDF, DOC ou JPG",
-            "selectSubject": "Selecione um assunto"
+            "selectSubject": "Selecione um assunto",
+            "meet-the-fluig-company": "Digite o nome da sua empresa",
+            "meet-the-fluig-cnpj": "Digite seu CNPJ"
         }
     });
 
@@ -22,7 +24,8 @@ $(document).ready(function () {
     });
 
     // mask
-    $("#work-with-us-phone").mask('(99)9999-9999?9');
-    $("#work-with-us-cpf").mask('999.999.999-99');
+    $("#meet-the-fluig-phone").mask('(99)9999-9999?9');
+    $("#meet-the-fluig-cpf").mask('999.999.999-99');
+    $("#meet-the-fluig-cnpj").mask('99.999.999/9999-99');
 
 });

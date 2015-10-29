@@ -131,15 +131,41 @@
             /* END SEACH PARTNERS */
 
             /* WORK WITH US */
-            include "../components/work-with-us/index.php";
-            include "../components/follow-blog/index.php";
+//            include "../components/work-with-us/index.php";
+//            include "../components/follow-blog/index.php";
             /* END WORK WITH US */
 
             /* SOLUTION FEATURE */
+//            include "../components/circle-ten-solutions-grey/index.php";
 //            include "../components/solucition-feature/index.php";
 //            include "../components/it-experts-facts-data/index.php";
 //            include "../components/follow-blog/index.php";
             /* END SOLUTION FEATURE */
+
+            /* MEET THE FLUIG */
+//            include "../components/meet-the-fluig/index.php";
+            /* END MEET THE FLUIG */
+
+            /* CONTACT US */
+//            include "../components/contact-us/index.php";
+            /* END CONTACT US */
+
+            /* REGISTER PARTNERS */
+//            include "../components/register/index.php";
+            /* END REGISTER PARTNERS */
+
+            /* REGISTER PARTNERS */
+            include "../components/partner-program/index.php";
+            /* END REGISTER PARTNERS */
+
+            /* PARTNERS */
+//            include "../components/banner-partners/index.php";
+//            include "../components/box-partners/index.php";
+            /* END PARTNERS */
+
+            /* Usage Policy and Privacy policy */
+//            include "../components/full-width-text/index.php";
+            /* END Usage Policy and Privacy policy */
             ?>
         </div>
         <div class="divisor_footer"></div>
@@ -165,16 +191,16 @@
                             </h3>
                         </div>
                         <div class="col-md-5 col-sm-11 col-md-offset-0 col-sm-offset-1">
-                            <form class="form-horizontal">
+                            <form class="form-horizontal" id="form-footer-news" name="form-footer-news">
                                 <fieldset>
-                                    <div class="form-group">
+                                    <div class="form-group relative">
                                         <input id="news_name" name="news_name" type="text" placeholder="Nome" class="form-control" required class="col-md-12">
                                     </div>
-                                    <div class="form-group">
-                                        <input id="news_email" name="news_email" type="text" placeholder="E-mail" class="form-control" required="" class="col-md-12">
+                                    <div class="form-group relative">
+                                        <input id="news_email" name="news_email" type="text" placeholder="E-mail" class="form-control" required class="col-md-12">
                                     </div>
                                     <div class="form-group text-right">
-                                        <button id="singlebutton" name="singlebutton" class="btn btn-green">ENVIAR</button>
+                                        <input type="submit" value="ENVIAR" id="singlebutton" name="singlebutton" class="btn btn-green">   
                                     </div>
                                 </fieldset>
                             </form>
@@ -237,6 +263,8 @@
         </div>
 
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery.maskedinput-1.3.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
 
         <!-- JS SPECIFIC -->
         <script src="js/script.js" type="text/javascript"></script>

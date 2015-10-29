@@ -1,0 +1,165 @@
+.container-register{
+    background: url(../images/bg-register.png) top 170px left 33% no-repeat;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+}
+.menu-left-partners-center{
+    border-radius: 10px;
+    padding: 25px 25px;
+    background: #EA195A;
+}
+.menu-left-partners ul{
+    margin-bottom: 0;
+}
+.menu-left-partners ul li a{
+    color: #fff;
+    padding: 7px 0;
+    display: block;
+}
+.menu-left-partners ul li a:hover, .menu-left-partners ul li a:active, .menu-left-partners ul li a:focus, .menu-left-partners ul li.active a{
+    color: #FFC905;
+    text-decoration: none;
+}
+.box-text-register-r{
+    margin-bottom: 30px;
+}
+.box-text-register-r-center{
+    border-radius: 10px;
+    padding: 20px 60px 20px 160px; 
+    background: url(../images/ico-register.png) center left 20px no-repeat #A6CE39;
+}
+.box-text-register-r-center p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.box-form-register{
+    float: right;
+}
+.box-center-form-register{
+    background: #eaedf2;
+    border-radius: 10px;
+    padding: 30px 30px 15px 30px;
+}
+.box-form-register .form-group {
+    margin-bottom: 18px;
+}
+.container-register legend {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #f26f1f;
+    border-bottom: none;
+    font-family: 'open_sansbold';
+}
+.box-form-register .control-label.label-required{
+    margin-top: 16px;
+}
+.box-form-register div.label-sn{
+    text-align: right;
+}
+.box-center-form-register .label-sn label.label-left{
+    margin-top: 0;
+}
+.box-interest-news{
+    margin-top: 10px;
+}
+.box-interest-news label{
+    white-space: normal !important;
+}
+.container-register .box-checkbox {
+    top: 32px;
+    left: 0;
+}
+.form-register-part-2{
+    display: none;
+}
+.form-register-part-3{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    .container-register{
+        background-position-x: 50%;
+    }
+}
+@media screen and (max-width: 991px){
+    .box-text-register-r-center {
+        padding: 20px 30px 20px 160px;
+    }
+    .container-register legend {
+        text-align: center;
+    }
+    .form-register-part-1 legend {
+        margin-bottom: 30px;
+    }
+    .form-register-part-1 .form-group{
+        margin-bottom: 0;
+    }
+    .form-register-part-1 .form-group input{
+        margin-bottom: 18px;
+    }
+}
+@media screen and (max-width: 767px){
+    .container-register {
+        background: url(../images/bg-register.png) bottom -300px left 350px no-repeat;
+    }
+    .menu-left-partners{
+        margin-bottom: 30px;
+    }
+    .box-form-register .control-label.label-required {
+        margin-top: 25px;
+    }
+    .box-form-register {
+        float: none;
+    }
+    .box-center-form-register label.label-left {
+        margin-top: 6px;
+    }
+    .box-form-register label.label-left.text-left, .box-center-form-register label.label-left.label-f-sn{
+        padding-left: 15px;
+    }
+    .box-interest-news, .buttom-form {
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 460px){
+    .box-text-register-r-center {
+        padding: 110px 15px 15px 15px;
+        background: url(../images/ico-register-mobile.png) top 5px center no-repeat #A6CE39;
+    }
+    .box-text-register-r-center p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .box-text-register-r {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 450px){
+    .box-center-form-register{
+        padding: 15px;
+    }
+    .box-form-register label{
+        word-wrap: break-word;
+    }
+}
+@media screen and (max-width: 410px){
+    .box-center-form-register {
+        padding-bottom: 0;
+    }
+    .box-form-register .control-label.label-required{
+        padding: 0 15px;
+        width: 100%;
+        display: block;
+        float: none;
+        text-align: right;
+        margin: 0;
+    }
+    #form-register .form-register-part-1 .buttom-form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 410px){
+    .box-center-form-register  .label-sn label{
+        display: block;
+        float: none;
+    }
+}

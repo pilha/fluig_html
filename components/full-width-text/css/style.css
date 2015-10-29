@@ -1,0 +1,10 @@
+/* BOX TEXT*/
+.component-full-width-text p{
+    margin-bottom: 30px;
+}
+.component-full-width-text ul li, .component-full-width-text ol li{
+    color: #57595a;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+/* END BOX TEXT*/

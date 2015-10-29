@@ -41,6 +41,9 @@
     }
 }
 @media screen and (max-width: 991px) {
+    .box-partners{
+        margin-top: 30px;
+    }
     .row-box-partners{
         margin: 0 -7px;
     }

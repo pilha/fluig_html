@@ -20,10 +20,23 @@ $(document).ready(function () {
 
     $(".dropdown").click(function () {
         $(this).children(".dropdown-menu").slideToggle();
-    })
+    });
     /* END HEADER */
 
     select_box();
+
+    // validate newsletter
+    $("#form-footer-news").validate({
+        rules: {
+            "news_email": {
+                email: true
+            }
+        },
+        messages: {
+            "news_name": "Digite seu nome",
+            "news_email": "Digite um email válido"
+        }
+    });
 
     /* box com mais informações sobre clientes ou parceiros */
     $(".box_with_case").click(function () {
